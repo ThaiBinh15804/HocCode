@@ -3,8 +3,8 @@
 int main()
 {
     printf("\nXin chao cac ban\n");
-    float b;
-    scanf("%d",&b);
+    int a
+    scanf_s("%d",&a);
     return 0;
 }
 
