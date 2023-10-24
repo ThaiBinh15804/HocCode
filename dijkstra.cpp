@@ -2,7 +2,7 @@
 #include <stdbool.h>
 #include <limits.h>
 
-#define V 3 // Số đỉnh ban đầu (0, 1, 2, 16)
+#define V 3 // Số đỉnh ban đầu (0, 1, 2, 16).
 
 // Hàm tìm đỉnh có khoảng cách nhỏ nhất chưa được thăm
 int timDinhNhoNhat(int dist[], bool sptSet[]) {
