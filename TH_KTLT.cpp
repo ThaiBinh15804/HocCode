@@ -30,7 +30,7 @@ void Cau3();
 void Cau4();
 void menu();
 
-//4.1. Tạo cấu trúc Sản phầm
+//4.1. Tạo cấu trúc Sản phẩm
 struct Sanpham {
     char maSP[6];
     char tenSP[11];
@@ -161,7 +161,7 @@ void taoMatran(int a[][MAX], int &n) {
     do {
         scanf("%d", &n);
         if (n <= 0 || n > MAX)
-            printf("\nNhap lai kich thuoc ma tran: ");
+            printf("\nNhap sai! \nVui long nhap lai kich thuoc ma tran: ");
     } while (n <= 0 || n > MAX);
 
     srand(time(NULL));
@@ -396,6 +396,8 @@ void Cau4() {
         {
         case 11:
             nhapDSSP(a, n);
+            printf("\nDanh sach san pham vua nhap: ");
+            xuatDSSP(a, n);
             break;
         case 12:
             docFile(a, n);
